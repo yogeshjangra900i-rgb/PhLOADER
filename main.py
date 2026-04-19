@@ -551,8 +551,7 @@ async def upload(bot: Client, m: Message):
     await editable.delete() 
 
     
-    else:
-        count = int(raw_text)
+    
 
     try:
         for i in range(count - 1, len(links)):
